@@ -1,0 +1,31 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+#buttontext {
+    color: #333;
+    font-size: 20px;
+    text-decoration: none;
+    width: auto;
+    font-family:sans-serif;
+    position:relative;
+    top:15%;
+}
+#button{
+    background-color:#C1C1C1;
+    text-align:center;
+    position:absolute;
+    top: 400px;
+    width:170px;
+    height:30px;
+    left:25%;
+    transform:translate(-50%,100%);
+    visibility:hidden;
+    
+}
+#button:hover{
+    background-color:rgb(237, 34, 93);
+}
